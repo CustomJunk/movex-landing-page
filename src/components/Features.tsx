@@ -7,7 +7,7 @@ const Features = () => {
     "Instant payouts after every class",
     "Automated client reminders and notifications",
     "Secure payment processing",
-    "Comprehensive business dashboard and analytics",
+    "Comprehensive business dashboard and analytics (coming soon)",
   ];
 
   return (

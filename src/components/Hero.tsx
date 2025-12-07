@@ -15,13 +15,26 @@ const Hero = () => {
               MoveX simplifies bookings, automates payments, and helps trainers grow their business.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button size="lg" className="text-lg px-8 py-6 rounded-full">
+              {/* <Button size="lg" className="text-lg px-8 py-6 rounded-full">
                 Download MoveX
               </Button>
               <a href="#features">
               <Button size="lg" variant="outline" className="text-lg px-8 py-6 rounded-full">
                 Learn More
               </Button>
+              </a> */}
+              <a href="mailto:dancex.co@gmail.com?subject=MoveX Demo Request&body=Hi, I'm interested in scheduling a MoveX demo.">
+                <Button
+                  size="lg"
+                  className="text-lg px-8 py-6 rounded-full border-2 border-background text-background hover:bg-background hover:text-foreground"
+                >
+                  Schedule a Demo
+                </Button>
+              </a>
+              <a href="#features">
+                <Button size="lg" variant="outline" className="text-lg px-8 py-6 rounded-full">
+                  Learn More
+                </Button>
               </a>
             </div>
           </div>

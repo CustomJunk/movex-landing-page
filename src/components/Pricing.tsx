@@ -60,12 +60,12 @@ const Pricing = () => {
                 <span className="text-5xl font-bold">{plan.price}</span>
                 <span className="text-muted-foreground">{plan.period}</span>
               </div>
-              <Button 
+              {/* <Button 
                 className={`w-full mb-8 rounded-full ${plan.highlight ? "" : "variant-outline"}`}
                 variant={plan.highlight ? "default" : "outline"}
               >
                 Get Started
-              </Button>
+              </Button> */}
               <ul className="space-y-4">
                 {plan.features.map((feature, featureIndex) => (
                   <li key={featureIndex} className="flex items-center gap-3">

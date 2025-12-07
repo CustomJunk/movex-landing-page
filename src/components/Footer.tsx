@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="bg-background border-t border-border py-12">
       <div className="container mx-auto px-4">
-        <div className="grid gap-8 md:grid-cols-4">
+        {/* <div className="grid gap-8 md:grid-cols-4">
           <div>
             <h3 className="text-2xl font-bold mb-4">MoveX</h3>
             <p className="text-muted-foreground">
@@ -33,7 +33,7 @@ const Footer = () => {
               <li><a href="#" className="hover:text-foreground transition-colors">Security</a></li>
             </ul>
           </div>
-        </div>
+        </div> */}
         <div className="border-t border-border mt-12 pt-8 text-center text-muted-foreground">
           <p>&copy; 2025 MoveX. All rights reserved.</p>
         </div>

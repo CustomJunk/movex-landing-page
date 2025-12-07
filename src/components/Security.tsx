@@ -20,13 +20,13 @@ const Security = () => {
             </div>
             <div className="bg-card rounded-2xl p-6">
               <CheckCircle2 className="w-8 h-8 mx-auto mb-4" />
-              <h3 className="font-bold text-lg mb-2">PCI Compliant</h3>
-              <p className="text-muted-foreground">Secure payment processing certified</p>
+              <h3 className="font-bold text-lg mb-2">Cybersecurity Expertise</h3>
+              <p className="text-muted-foreground">Created by experts in cybersecurity</p>
             </div>
             <div className="bg-card rounded-2xl p-6">
               <Shield className="w-8 h-8 mx-auto mb-4" />
-              <h3 className="font-bold text-lg mb-2">GDPR Ready</h3>
-              <p className="text-muted-foreground">Full data privacy compliance</p>
+              <h3 className="font-bold text-lg mb-2">Secure DB</h3>
+              <p className="text-muted-foreground">Data stored with top-tier security protocols</p>
             </div>
           </div>
         </div>

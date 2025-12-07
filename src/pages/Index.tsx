@@ -20,12 +20,12 @@ const Index = () => {
       <Features />
       <Pricing />
       <HowItWorks />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Security />
       <FAQ />
       <FinalCTA />
       <Footer />
-      <ExitPopup />
+      {/* <ExitPopup /> */}
     </div>
   );
 };

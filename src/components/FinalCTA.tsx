@@ -8,15 +8,25 @@ const FinalCTA = () => {
           Ready to simplify your business?
         </h2>
         <p className="text-xl md:text-2xl mb-12 opacity-90 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: "0.1s" }}>
-          Join hundreds of trainers and studios already growing with MoveX
+          Join trainers and studios already growing with MoveX
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{ animationDelay: "0.2s" }}>
-          <Button size="lg" variant="secondary" className="text-lg px-8 py-6 rounded-full">
+          {/* <Button size="lg" variant="secondary" className="text-lg px-8 py-6 rounded-full">
             Download MoveX
-          </Button>
-          {/* <Button size="lg" variant="outline" className="text-lg px-8 py-6 rounded-full border-2 border-background text-background hover:bg-background hover:text-foreground">
+          </Button> */}
+          {/* <Button size="lg" className="text-lg px-8 py-6 rounded-full border-2 border-background text-background hover:bg-background hover:text-foreground">
             Schedule a Demo
           </Button> */}
+                    <a
+            href="mailto:dancex.co@gmail.com?subject=MoveX Demo Request&body=Hi, I'm interested in scheduling a MoveX demo."
+          >
+            <Button
+              size="lg"
+              className="text-lg px-8 py-6 rounded-full border-2 border-background text-background hover:bg-background hover:text-foreground"
+            >
+              Schedule a Demo
+            </Button>
+          </a>
         </div>
       </div>
     </section>
