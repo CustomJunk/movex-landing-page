@@ -9,9 +9,9 @@ const Testimonials = () => {
       rating: 5,
     },
     {
-      name: "Marcus Thompson",
+      name: "Roman Pastushchak",
       role: "Dance Studio Owner",
-      content: "Managing 15 instructors used to be chaos. Now everything runs smoothly with MoveX.",
+      content: "Managing instructors used to be chaos. Now everything runs smoothly with MoveX.",
       rating: 5,
     },
     {
@@ -28,7 +28,7 @@ const Testimonials = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Trusted by Professionals</h2>
           <p className="text-xl text-muted-foreground">
-            Join hundreds of trainers and studios already using MoveX
+            Join trainers and studios already growing with MoveX
           </p>
         </div>
         <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">

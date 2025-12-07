@@ -18,9 +18,11 @@ const Hero = () => {
               <Button size="lg" className="text-lg px-8 py-6 rounded-full">
                 Download MoveX
               </Button>
+              <a href="#features">
               <Button size="lg" variant="outline" className="text-lg px-8 py-6 rounded-full">
                 Learn More
               </Button>
+              </a>
             </div>
           </div>
           <div className="flex justify-center lg:justify-end animate-fade-in" style={{ animationDelay: "0.2s" }}>

@@ -13,7 +13,7 @@ const FAQ = () => {
     },
     {
       question: "What fees does MoveX charge?",
-      answer: "We charge a small transaction fee of 2.9% + $0.30 per booking, which covers payment processing. No hidden fees or setup costs.",
+      answer: "We charge a small transaction fee of 2.5% + $0.30 per booking, which covers payment processing. No hidden fees or setup costs.",
     },
     {
       question: "Can I cancel my subscription anytime?",

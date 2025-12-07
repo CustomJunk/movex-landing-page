@@ -14,9 +14,9 @@ const FinalCTA = () => {
           <Button size="lg" variant="secondary" className="text-lg px-8 py-6 rounded-full">
             Download MoveX
           </Button>
-          <Button size="lg" variant="outline" className="text-lg px-8 py-6 rounded-full border-2 border-background text-background hover:bg-background hover:text-foreground">
+          {/* <Button size="lg" variant="outline" className="text-lg px-8 py-6 rounded-full border-2 border-background text-background hover:bg-background hover:text-foreground">
             Schedule a Demo
-          </Button>
+          </Button> */}
         </div>
       </div>
     </section>
